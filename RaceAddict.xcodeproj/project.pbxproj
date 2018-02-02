@@ -17,6 +17,7 @@
 		4EE99A8D20233C5700FB6E2B /* RaceAddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A8C20233C5700FB6E2B /* RaceAddictTests.swift */; };
 		4EE99A9820233C5700FB6E2B /* RaceAddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A9720233C5700FB6E2B /* RaceAddictUITests.swift */; };
 		4EE99AA62023953E00FB6E2B /* RoadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99AA52023953E00FB6E2B /* RoadController.swift */; };
+		4EE99AA8202493FB00FB6E2B /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99AA7202493FB00FB6E2B /* GameColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4EE99A9720233C5700FB6E2B /* RaceAddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceAddictUITests.swift; sourceTree = "<group>"; };
 		4EE99A9920233C5800FB6E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE99AA52023953E00FB6E2B /* RoadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadController.swift; sourceTree = "<group>"; };
+		4EE99AA7202493FB00FB6E2B /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4EE99A8020233C5700FB6E2B /* LaunchScreen.storyboard */,
 				4EE99A8320233C5700FB6E2B /* Info.plist */,
 				4EE99AA52023953E00FB6E2B /* RoadController.swift */,
+				4EE99AA7202493FB00FB6E2B /* GameColor.swift */,
 			);
 			path = RaceAddict;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE99A7820233C5700FB6E2B /* GameScene.swift in Sources */,
+				4EE99AA8202493FB00FB6E2B /* GameColor.swift in Sources */,
 				4EE99AA62023953E00FB6E2B /* RoadController.swift in Sources */,
 				4EE99A7A20233C5700FB6E2B /* GameViewController.swift in Sources */,
 				4EE99A7220233C5700FB6E2B /* AppDelegate.swift in Sources */,
