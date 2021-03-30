@@ -3,76 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EE99A7220233C5700FB6E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A7120233C5700FB6E2B /* AppDelegate.swift */; };
-		4EE99A7420233C5700FB6E2B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4EE99A7320233C5700FB6E2B /* GameScene.sks */; };
-		4EE99A7820233C5700FB6E2B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A7720233C5700FB6E2B /* GameScene.swift */; };
-		4EE99A7A20233C5700FB6E2B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A7920233C5700FB6E2B /* GameViewController.swift */; };
-		4EE99A7D20233C5700FB6E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE99A7B20233C5700FB6E2B /* Main.storyboard */; };
-		4EE99A7F20233C5700FB6E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE99A7E20233C5700FB6E2B /* Assets.xcassets */; };
-		4EE99A8220233C5700FB6E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE99A8020233C5700FB6E2B /* LaunchScreen.storyboard */; };
-		4EE99A8D20233C5700FB6E2B /* RaceAddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A8C20233C5700FB6E2B /* RaceAddictTests.swift */; };
-		4EE99A9820233C5700FB6E2B /* RaceAddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99A9720233C5700FB6E2B /* RaceAddictUITests.swift */; };
-		4EE99AA62023953E00FB6E2B /* RoadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99AA52023953E00FB6E2B /* RoadController.swift */; };
-		4EE99AA8202493FB00FB6E2B /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE99AA7202493FB00FB6E2B /* GameColor.swift */; };
+		4E0CB35F260EC574008C6478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CB35E260EC574008C6478 /* AppDelegate.swift */; };
+		4E0CB361260EC574008C6478 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CB360260EC574008C6478 /* SceneDelegate.swift */; };
+		4E0CB363260EC574008C6478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CB362260EC574008C6478 /* ViewController.swift */; };
+		4E0CB366260EC574008C6478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CB364260EC574008C6478 /* Main.storyboard */; };
+		4E0CB368260EC574008C6478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CB367260EC574008C6478 /* Assets.xcassets */; };
+		4E0CB36B260EC574008C6478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CB369260EC574008C6478 /* LaunchScreen.storyboard */; };
+		4EB9D904260ECE6000DC6587 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9D903260ECE6000DC6587 /* GameScene.swift */; };
+		4EB9D918260EDE3100DC6587 /* redCar.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9D917260EDE3100DC6587 /* redCar.atlas */; };
+		4EB9D92326111E6700DC6587 /* GameAssets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9D92226111E6700DC6587 /* GameAssets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4EE99A8920233C5700FB6E2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EE99A6620233C5700FB6E2B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EE99A6D20233C5700FB6E2B;
-			remoteInfo = RaceAddict;
-		};
-		4EE99A9420233C5700FB6E2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EE99A6620233C5700FB6E2B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EE99A6D20233C5700FB6E2B;
-			remoteInfo = RaceAddict;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4EE99A6E20233C5700FB6E2B /* RaceAddict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceAddict.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EE99A7120233C5700FB6E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EE99A7320233C5700FB6E2B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4EE99A7720233C5700FB6E2B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		4EE99A7920233C5700FB6E2B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		4EE99A7C20233C5700FB6E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EE99A7E20233C5700FB6E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EE99A8120233C5700FB6E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4EE99A8320233C5700FB6E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EE99A8820233C5700FB6E2B /* RaceAddictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceAddictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EE99A8C20233C5700FB6E2B /* RaceAddictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceAddictTests.swift; sourceTree = "<group>"; };
-		4EE99A8E20233C5700FB6E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EE99A9320233C5700FB6E2B /* RaceAddictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceAddictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EE99A9720233C5700FB6E2B /* RaceAddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceAddictUITests.swift; sourceTree = "<group>"; };
-		4EE99A9920233C5800FB6E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EE99AA52023953E00FB6E2B /* RoadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadController.swift; sourceTree = "<group>"; };
-		4EE99AA7202493FB00FB6E2B /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		4E0CB35B260EC574008C6478 /* RaceAddict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceAddict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0CB35E260EC574008C6478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E0CB360260EC574008C6478 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E0CB362260EC574008C6478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E0CB365260EC574008C6478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E0CB367260EC574008C6478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E0CB36A260EC574008C6478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E0CB36C260EC574008C6478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB9D903260ECE6000DC6587 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4EB9D917260EDE3100DC6587 /* redCar.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = redCar.atlas; sourceTree = "<group>"; };
+		4EB9D92226111E6700DC6587 /* GameAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameAssets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EE99A6B20233C5700FB6E2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE99A8520233C5700FB6E2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE99A9020233C5700FB6E2B /* Frameworks */ = {
+		4E0CB358260EC574008C6478 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,71 +43,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4EE99A6520233C5700FB6E2B = {
+		4E0CB352260EC573008C6478 = {
 			isa = PBXGroup;
 			children = (
-				4EE99A7020233C5700FB6E2B /* RaceAddict */,
-				4EE99A8B20233C5700FB6E2B /* RaceAddictTests */,
-				4EE99A9620233C5700FB6E2B /* RaceAddictUITests */,
-				4EE99A6F20233C5700FB6E2B /* Products */,
+				4E0CB35D260EC574008C6478 /* RaceAddict */,
+				4E0CB35C260EC574008C6478 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4EE99A6F20233C5700FB6E2B /* Products */ = {
+		4E0CB35C260EC574008C6478 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EE99A6E20233C5700FB6E2B /* RaceAddict.app */,
-				4EE99A8820233C5700FB6E2B /* RaceAddictTests.xctest */,
-				4EE99A9320233C5700FB6E2B /* RaceAddictUITests.xctest */,
+				4E0CB35B260EC574008C6478 /* RaceAddict.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EE99A7020233C5700FB6E2B /* RaceAddict */ = {
+		4E0CB35D260EC574008C6478 /* RaceAddict */ = {
 			isa = PBXGroup;
 			children = (
-				4EE99A7120233C5700FB6E2B /* AppDelegate.swift */,
-				4EE99A7320233C5700FB6E2B /* GameScene.sks */,
-				4EE99A7720233C5700FB6E2B /* GameScene.swift */,
-				4EE99A7920233C5700FB6E2B /* GameViewController.swift */,
-				4EE99A7B20233C5700FB6E2B /* Main.storyboard */,
-				4EE99A7E20233C5700FB6E2B /* Assets.xcassets */,
-				4EE99A8020233C5700FB6E2B /* LaunchScreen.storyboard */,
-				4EE99A8320233C5700FB6E2B /* Info.plist */,
-				4EE99AA52023953E00FB6E2B /* RoadController.swift */,
-				4EE99AA7202493FB00FB6E2B /* GameColor.swift */,
+				4EB9D92226111E6700DC6587 /* GameAssets */,
+				4E0CB35E260EC574008C6478 /* AppDelegate.swift */,
+				4E0CB360260EC574008C6478 /* SceneDelegate.swift */,
+				4EB9D903260ECE6000DC6587 /* GameScene.swift */,
+				4E0CB362260EC574008C6478 /* ViewController.swift */,
+				4E0CB364260EC574008C6478 /* Main.storyboard */,
+				4E0CB367260EC574008C6478 /* Assets.xcassets */,
+				4EB9D917260EDE3100DC6587 /* redCar.atlas */,
+				4E0CB369260EC574008C6478 /* LaunchScreen.storyboard */,
+				4E0CB36C260EC574008C6478 /* Info.plist */,
 			);
 			path = RaceAddict;
-			sourceTree = "<group>";
-		};
-		4EE99A8B20233C5700FB6E2B /* RaceAddictTests */ = {
-			isa = PBXGroup;
-			children = (
-				4EE99A8C20233C5700FB6E2B /* RaceAddictTests.swift */,
-				4EE99A8E20233C5700FB6E2B /* Info.plist */,
-			);
-			path = RaceAddictTests;
-			sourceTree = "<group>";
-		};
-		4EE99A9620233C5700FB6E2B /* RaceAddictUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4EE99A9720233C5700FB6E2B /* RaceAddictUITests.swift */,
-				4EE99A9920233C5800FB6E2B /* Info.plist */,
-			);
-			path = RaceAddictUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EE99A6D20233C5700FB6E2B /* RaceAddict */ = {
+		4E0CB35A260EC574008C6478 /* RaceAddict */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE99A9C20233C5800FB6E2B /* Build configuration list for PBXNativeTarget "RaceAddict" */;
+			buildConfigurationList = 4E0CB36F260EC574008C6478 /* Build configuration list for PBXNativeTarget "RaceAddict" */;
 			buildPhases = (
-				4EE99A6A20233C5700FB6E2B /* Sources */,
-				4EE99A6B20233C5700FB6E2B /* Frameworks */,
-				4EE99A6C20233C5700FB6E2B /* Resources */,
+				4E0CB357260EC574008C6478 /* Sources */,
+				4E0CB358260EC574008C6478 /* Frameworks */,
+				4E0CB359260EC574008C6478 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,176 +93,83 @@
 			);
 			name = RaceAddict;
 			productName = RaceAddict;
-			productReference = 4EE99A6E20233C5700FB6E2B /* RaceAddict.app */;
+			productReference = 4E0CB35B260EC574008C6478 /* RaceAddict.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4EE99A8720233C5700FB6E2B /* RaceAddictTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE99A9F20233C5800FB6E2B /* Build configuration list for PBXNativeTarget "RaceAddictTests" */;
-			buildPhases = (
-				4EE99A8420233C5700FB6E2B /* Sources */,
-				4EE99A8520233C5700FB6E2B /* Frameworks */,
-				4EE99A8620233C5700FB6E2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EE99A8A20233C5700FB6E2B /* PBXTargetDependency */,
-			);
-			name = RaceAddictTests;
-			productName = RaceAddictTests;
-			productReference = 4EE99A8820233C5700FB6E2B /* RaceAddictTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4EE99A9220233C5700FB6E2B /* RaceAddictUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE99AA220233C5800FB6E2B /* Build configuration list for PBXNativeTarget "RaceAddictUITests" */;
-			buildPhases = (
-				4EE99A8F20233C5700FB6E2B /* Sources */,
-				4EE99A9020233C5700FB6E2B /* Frameworks */,
-				4EE99A9120233C5700FB6E2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EE99A9520233C5700FB6E2B /* PBXTargetDependency */,
-			);
-			name = RaceAddictUITests;
-			productName = RaceAddictUITests;
-			productReference = 4EE99A9320233C5700FB6E2B /* RaceAddictUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4EE99A6620233C5700FB6E2B /* Project object */ = {
+		4E0CB353260EC573008C6478 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Hamilton Santos";
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					4EE99A6D20233C5700FB6E2B = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					4EE99A8720233C5700FB6E2B = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4EE99A6D20233C5700FB6E2B;
-					};
-					4EE99A9220233C5700FB6E2B = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4EE99A6D20233C5700FB6E2B;
+					4E0CB35A260EC574008C6478 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 4EE99A6920233C5700FB6E2B /* Build configuration list for PBXProject "RaceAddict" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 4E0CB356260EC573008C6478 /* Build configuration list for PBXProject "RaceAddict" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4EE99A6520233C5700FB6E2B;
-			productRefGroup = 4EE99A6F20233C5700FB6E2B /* Products */;
+			mainGroup = 4E0CB352260EC573008C6478;
+			productRefGroup = 4E0CB35C260EC574008C6478 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EE99A6D20233C5700FB6E2B /* RaceAddict */,
-				4EE99A8720233C5700FB6E2B /* RaceAddictTests */,
-				4EE99A9220233C5700FB6E2B /* RaceAddictUITests */,
+				4E0CB35A260EC574008C6478 /* RaceAddict */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EE99A6C20233C5700FB6E2B /* Resources */ = {
+		4E0CB359260EC574008C6478 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE99A7D20233C5700FB6E2B /* Main.storyboard in Resources */,
-				4EE99A7420233C5700FB6E2B /* GameScene.sks in Resources */,
-				4EE99A7F20233C5700FB6E2B /* Assets.xcassets in Resources */,
-				4EE99A8220233C5700FB6E2B /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE99A8620233C5700FB6E2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE99A9120233C5700FB6E2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4EB9D918260EDE3100DC6587 /* redCar.atlas in Resources */,
+				4E0CB36B260EC574008C6478 /* LaunchScreen.storyboard in Resources */,
+				4E0CB368260EC574008C6478 /* Assets.xcassets in Resources */,
+				4E0CB366260EC574008C6478 /* Main.storyboard in Resources */,
+				4EB9D92326111E6700DC6587 /* GameAssets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EE99A6A20233C5700FB6E2B /* Sources */ = {
+		4E0CB357260EC574008C6478 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE99A7820233C5700FB6E2B /* GameScene.swift in Sources */,
-				4EE99AA8202493FB00FB6E2B /* GameColor.swift in Sources */,
-				4EE99AA62023953E00FB6E2B /* RoadController.swift in Sources */,
-				4EE99A7A20233C5700FB6E2B /* GameViewController.swift in Sources */,
-				4EE99A7220233C5700FB6E2B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE99A8420233C5700FB6E2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EE99A8D20233C5700FB6E2B /* RaceAddictTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE99A8F20233C5700FB6E2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EE99A9820233C5700FB6E2B /* RaceAddictUITests.swift in Sources */,
+				4E0CB363260EC574008C6478 /* ViewController.swift in Sources */,
+				4E0CB35F260EC574008C6478 /* AppDelegate.swift in Sources */,
+				4EB9D904260ECE6000DC6587 /* GameScene.swift in Sources */,
+				4E0CB361260EC574008C6478 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4EE99A8A20233C5700FB6E2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EE99A6D20233C5700FB6E2B /* RaceAddict */;
-			targetProxy = 4EE99A8920233C5700FB6E2B /* PBXContainerItemProxy */;
-		};
-		4EE99A9520233C5700FB6E2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EE99A6D20233C5700FB6E2B /* RaceAddict */;
-			targetProxy = 4EE99A9420233C5700FB6E2B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		4EE99A7B20233C5700FB6E2B /* Main.storyboard */ = {
+		4E0CB364260EC574008C6478 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EE99A7C20233C5700FB6E2B /* Base */,
+				4E0CB365260EC574008C6478 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4EE99A8020233C5700FB6E2B /* LaunchScreen.storyboard */ = {
+		4E0CB369260EC574008C6478 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EE99A8120233C5700FB6E2B /* Base */,
+				4E0CB36A260EC574008C6478 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4EE99A9A20233C5800FB6E2B /* Debug */ = {
+		4E0CB36D260EC574008C6478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,10 +187,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -352,15 +200,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -379,8 +228,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -388,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		4EE99A9B20233C5800FB6E2B /* Release */ = {
+		4E0CB36E260EC574008C6478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,10 +248,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -409,15 +261,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -430,150 +283,76 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4EE99A9D20233C5800FB6E2B /* Debug */ = {
+		4E0CB370260EC574008C6478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FQBTFMLP9R;
+				DEVELOPMENT_TEAM = 28CU5YV2B9;
 				INFOPLIST_FILE = RaceAddict/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonSantos.RaceAddict;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hamiltonSantos.RaceAddict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4EE99A9E20233C5800FB6E2B /* Release */ = {
+		4E0CB371260EC574008C6478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FQBTFMLP9R;
+				DEVELOPMENT_TEAM = 28CU5YV2B9;
 				INFOPLIST_FILE = RaceAddict/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonSantos.RaceAddict;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hamiltonSantos.RaceAddict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4EE99AA020233C5800FB6E2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FQBTFMLP9R;
-				INFOPLIST_FILE = RaceAddictTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonSantos.RaceAddictTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceAddict.app/RaceAddict";
-			};
-			name = Debug;
-		};
-		4EE99AA120233C5800FB6E2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FQBTFMLP9R;
-				INFOPLIST_FILE = RaceAddictTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonSantos.RaceAddictTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceAddict.app/RaceAddict";
-			};
-			name = Release;
-		};
-		4EE99AA320233C5800FB6E2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FQBTFMLP9R;
-				INFOPLIST_FILE = RaceAddictUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonSantos.RaceAddictUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RaceAddict;
-			};
-			name = Debug;
-		};
-		4EE99AA420233C5800FB6E2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FQBTFMLP9R;
-				INFOPLIST_FILE = RaceAddictUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonSantos.RaceAddictUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RaceAddict;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EE99A6920233C5700FB6E2B /* Build configuration list for PBXProject "RaceAddict" */ = {
+		4E0CB356260EC573008C6478 /* Build configuration list for PBXProject "RaceAddict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EE99A9A20233C5800FB6E2B /* Debug */,
-				4EE99A9B20233C5800FB6E2B /* Release */,
+				4E0CB36D260EC574008C6478 /* Debug */,
+				4E0CB36E260EC574008C6478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE99A9C20233C5800FB6E2B /* Build configuration list for PBXNativeTarget "RaceAddict" */ = {
+		4E0CB36F260EC574008C6478 /* Build configuration list for PBXNativeTarget "RaceAddict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EE99A9D20233C5800FB6E2B /* Debug */,
-				4EE99A9E20233C5800FB6E2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EE99A9F20233C5800FB6E2B /* Build configuration list for PBXNativeTarget "RaceAddictTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EE99AA020233C5800FB6E2B /* Debug */,
-				4EE99AA120233C5800FB6E2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EE99AA220233C5800FB6E2B /* Build configuration list for PBXNativeTarget "RaceAddictUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EE99AA320233C5800FB6E2B /* Debug */,
-				4EE99AA420233C5800FB6E2B /* Release */,
+				4E0CB370260EC574008C6478 /* Debug */,
+				4E0CB371260EC574008C6478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4EE99A6620233C5700FB6E2B /* Project object */;
+	rootObject = 4E0CB353260EC573008C6478 /* Project object */;
 }
